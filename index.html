@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/variables.css">
@@ -12,25 +17,24 @@
 </head>
 
 <body>
-  <main>
-    Jessica Randall
-    London, United Kingdom
-    "Front-end developer and avid reader."
+  <main class="main">
 
-    GitHub
-    Frontend Mentor
-    LinkedIn
-    Twitter
-    Instagram
-    
+    <div class="profile-card-container">
+      <img src="./src/images/avatar-jessica.jpeg" alt="profile image" title="profile image" class="image">
+      <h1 class="name">Jessica Randall</h1>
+      <p class="location">London, United Kingdom</p>
+      <p class="about">"Front-end developer and avid reader."</p>
+
+      <div class="links-container">
+        <a href="#" target="_blank" rel="noopener" class="link-btn">GitHub</a>
+        <a href="#" target="_blank" rel="noopener" class="link-btn">Frontend Mentor</a>
+        <a href="#" target="_blank" rel="noopener" class="link-btn">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener" class="link-btn">Twitter</a>
+        <a href="#" target="_blank" rel="noopener" class="link-btn">Instagram</a>
+      </div>
+    </div>
+
   </main>
-  <footer>
-
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
-        Mentor</a>. Coded by <a href="https://fransuelton.dev/links" target="_blank" rel="noopener">Fransuelton</a>.
-    </p>
-
-  </footer>
 </body>
 
 </html>
