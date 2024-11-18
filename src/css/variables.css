@@ -1,0 +1,9 @@
+:root {
+  --primary-color: hsl(75, 94%, 57%);
+  --card-background-color: hsl(0, 0%, 12%);
+  --button-background-color: hsl(0, 0%, 20%);
+  --background-color: hsl(0, 0%, 8%);
+  --white-color: hsl(0, 0%, 100%);
+
+  --default-font-size: 14px;
+}
